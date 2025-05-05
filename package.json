@@ -1,6 +1,6 @@
 {
     "name": "bgdf",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "private": true,
     "devDependencies": {
         "@release-it/conventional-changelog": "^10.0.1",
