@@ -1,0 +1,22 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+jobs:
+  release-please:
+    name: Release Please
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write # for pushing tags/releases
+      pull-requests: write # for creating release PR
+      issues: write # for creating labels (labels fall under issues scope)
+
+    steps:
+      - uses: googleapis/release-please-action@v4
+        with:
+          release-type: node
+          debug: true
