@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/sebastian-xicay/test-repo/compare/v1.0.0...v1.0.1) (2025-05-05)
+
+
+### Bug Fixes
+
+* some fix ([744118b](https://github.com/sebastian-xicay/test-repo/commit/744118bff02fd17d23e7bfe24596f8f38911b42b))
+
 ## 1.0.0 (2025-05-05)
 
 
